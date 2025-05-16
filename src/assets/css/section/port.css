@@ -1,8 +1,7 @@
 #port {
     width: 100%;
     /*margin-top: 30vh;*/
-    overflow: hidden;
-    margin-bottom: 30vh;
+    overflow: visible;
 }
 .port__inner {
     padding: 16px;
@@ -32,9 +31,9 @@
 }
 .port__item {
     width: 500px;
-    height: 300vh;
-    background-color: var(--subBg100);
+    height: auto; /* ✅ 이걸로 고정 높이 해제 */
     padding: 2.5rem;
+    padding-bottom: 4rem; /* ✅ 여유 공간 확보 */
     margin-right: 20px;
 }
 .port__item.p1 {
@@ -105,6 +104,7 @@
     text-align: center;
     padding: 0.625rem 1.5rem;
     margin-top: 1.5rem;
+    margin-bottom: 1rem; /* ✅ 버튼 아래 여백 */
 }
 @media (max-width: 800px){
     .port__title {
