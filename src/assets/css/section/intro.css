@@ -24,7 +24,7 @@
     height: 40vh;
     /* background-color: var(--black);  */
     background-color: #FFFDF6;
-    color: var(--white);
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,11 +32,11 @@
     position: relative;
 }
 .intro__text .text {
-    font-size: 3vw;
+    font-size: 2vw;
     line-height: 1;
-    font-weight: 900;
+    font-weight: 800;
     text-transform: uppercase;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     text-align: center;
     position: relative;
     z-index: 100;
