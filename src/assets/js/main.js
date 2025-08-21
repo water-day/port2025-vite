@@ -7,5 +7,5 @@ window.addEventListener("load", function () {
     smooth();
     link();
     menu();
-    port();
+    //port();
 });
